@@ -1,0 +1,52 @@
+g=@(x) ((cos(x)+1)/3);
+a=input("Enter a:");
+b=input("Enter b:");
+e=input("Enter e:");
+it=1;
+while(1)
+  b=g(a);
+  printf("Iteration %d\n",it);
+  printf("Root:%d\n",b);
+  error=abs((b-a)/b)*100;
+  printf("Relative approximate error: %f \n", error);
+  a=b;
+  it++;
+  if(error<=e)
+break
+  endif
+endwhile
+
+output:
+Enter a:0
+Enter b:1
+Enter e:0.0001
+Iteration 1
+Root:0.666667
+Relative approximate error: 100.000000
+Iteration 2
+Root:0.595296
+Relative approximate error: 11.989152
+Iteration 3
+Root:0.609328
+Relative approximate error: 2.302835
+Iteration 4
+Root:0.606678
+Relative approximate error: 0.436786
+Iteration 5
+Root:0.607182
+Relative approximate error: 0.083099
+Iteration 6
+Root:0.607086
+Relative approximate error: 0.015801
+Iteration 7
+Root:0.607105
+Relative approximate error: 0.003005
+Iteration 8
+Root:0.607101
+Relative approximate error: 0.000571
+Iteration 9
+Root:0.607102
+Relative approximate error: 0.000109
+Iteration 10
+Root:0.607102
+Relative approximate error: 0.000021
