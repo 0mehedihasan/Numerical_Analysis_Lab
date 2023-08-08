@@ -2,11 +2,11 @@ Enter 1st Guess:0.02
 Enter 2nd Guess:0.05
 error tol:0.0001
 Iteration 1
-Root:0.0623776
+Root:0.0646144
 Relative approximate error: 0.002262
 Iteration 2
-Root:0.0623776
+Root:0.0624144
 Relative approximate error: 0.000352
 Iteration 3
-Root:0.0623776
+Root:0.0623774
 Relative approximate error: 0.000006
